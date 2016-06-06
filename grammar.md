@@ -34,3 +34,22 @@ and can be written as <l,r\,4,r> or <l,rh,rr,r> respectively
 
 /l/
 
+### Accents
+
+Some accents contain ejectives
+
+Some exhibit velarisation and/or palatisation
+
+### Phonotactics
+
+Velars seem to appear predominantly as codas
+
+Voiced stops rarely occur in a coda position
+
+Nuclei can be composed of vowels, nasals, fricatives (without secondary articulation), and /l/
+
+Single syllable morphemes require a vowel or fricative nucleus
+
+### Misc
+
+The lexicon appears to be prefix free?
