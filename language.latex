@@ -1,7 +1,0 @@
-\documentclass{memoir}
-\begin{document}
-\title{Language X}
-\author{Aaron J. Lang}
-%\date{\today}
-\maketitle
-\end{document}
