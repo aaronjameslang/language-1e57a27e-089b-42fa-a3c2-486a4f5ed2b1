@@ -4,6 +4,7 @@ include */makefile
 
 language.pdf: language.tex
 	pdflatex language.tex
+	makeindex *.idx
 	pdflatex language.tex
 
 clean:

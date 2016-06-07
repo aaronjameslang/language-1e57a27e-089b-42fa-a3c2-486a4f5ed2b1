@@ -1,12 +1,23 @@
 \documentclass{memoir}
+
+\usepackage{makeidx}
+\makeindex
+
 \title{Language X}
 \author{Aaron J. Lang}
+
 \begin{document}
+\frontmatter
 \maketitle
 \newpage
 \tableofcontents
+\mainmatter
 \part{Grammar}
 \chapter{Phonology}
+\index{Phonology}
 \part{Lexicon}
+\index{Lexicon}
 \part{Corpus}
+\backmatter
+\printindex
 \end{document}
