@@ -1,2 +1,3 @@
-grammar.html: grammar.md
-	pandoc grammar.md -s -o grammar.html --toc
+include */makefile
+
+all: lexicon

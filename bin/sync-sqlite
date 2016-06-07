@@ -1,0 +1,13 @@
+#! /bin/sh
+set -eu
+
+sql_file="$1"
+sqlite_file="$2"
+
+if test $sql_file -nt $sqlite_file
+then
+  rm $sqlite_file
+  sqlite3 $sqlite_file < $sql_file
+else
+  sqlite3 $sqlite_file .dump > $sql_file
+fi
