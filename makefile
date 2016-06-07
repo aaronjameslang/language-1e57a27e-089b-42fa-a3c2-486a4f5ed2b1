@@ -1,3 +1,6 @@
+all: lexicon language.pdf
+
 include */makefile
 
-all: lexicon
+language.pdf:
+	pdflatex language.latex
